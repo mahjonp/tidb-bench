@@ -31,20 +31,20 @@ func main() {
 		totCost := time.Duration(0)
 		for i := 0; i < *tpchCountFlag; i++ {
 			time.Sleep(time.Duration(*tpchSleepFlag) * time.Second)
-			explainFile := filepath.Join("explains", file.Name())
-			out, err := exec.Command("mysql",
-				fmt.Sprintf("-h%v", *tidbAddrFlag),
-				"-uroot",
-				fmt.Sprintf("-P%v", *tidbPortFlag),
-				fmt.Sprintf("-Dtpch%v", *tpchScaleFlag),
-				fmt.Sprintf("--local_infile"),
-				"-e", "source "+explainFile,
-			).Output()
+			// explainFile := filepath.Join("explains", file.Name())
+			// out, err := exec.Command("mysql",
+			// 	fmt.Sprintf("-h%v", *tidbAddrFlag),
+			// 	"-uroot",
+			// 	fmt.Sprintf("-P%v", *tidbPortFlag),
+			// 	fmt.Sprintf("-Dtpch%v", *tpchScaleFlag),
+			// 	fmt.Sprintf("--local_infile"),
+			// 	"-e", "source "+explainFile,
+			// ).Output()
 
-			if err != nil {
-				fmt.Printf("explain failed, got error %+v", err)
-			}
-			fmt.Printf("%v's %vth explain is %s\n", file.Name(), i, out)
+			// if err != nil {
+			// 	fmt.Printf("explain failed, got error %+v", err)
+			// }
+			// fmt.Printf("%v's %vth explain is %s\n", file.Name(), i, out)
 
 			cur := time.Now()
 			var stderr bytes.Buffer
