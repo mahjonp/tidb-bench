@@ -1,6 +1,7 @@
 -- using 1365545250 as a seed to the RNG
 
 
+EXPLAIN ANALYZE
 select
 	s_acctbal,
 	s_name,

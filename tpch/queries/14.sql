@@ -1,6 +1,7 @@
 -- using 1365545250 as a seed to the RNG
 
 
+EXPLAIN ANALYZE
 select
 	100.00 * sum(case
 		when p_type like 'PROMO%'

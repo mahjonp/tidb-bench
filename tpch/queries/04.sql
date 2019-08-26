@@ -1,6 +1,7 @@
 -- using 1365545250 as a seed to the RNG
 
 
+EXPLAIN ANALYZE
 select
 	o_orderpriority,
 	count(*) as order_count

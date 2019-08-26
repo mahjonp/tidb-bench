@@ -1,5 +1,6 @@
 -- using 1365545250 as a seed to the RNG
 
+
 create view revenue0 (supplier_no, total_revenue) as
 	select
 		l_suppkey,
@@ -13,6 +14,7 @@ create view revenue0 (supplier_no, total_revenue) as
 		l_suppkey;
 
 
+EXPLAIN ANALYZE
 select
 	s_suppkey,
 	s_name,

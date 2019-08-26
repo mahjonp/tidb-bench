@@ -1,6 +1,7 @@
 -- using 1365545250 as a seed to the RNG
 
 
+EXPLAIN ANALYZE
 select
 	l_returnflag,
 	l_linestatus,
