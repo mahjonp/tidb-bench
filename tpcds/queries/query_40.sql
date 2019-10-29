@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query40.tpl
+EXPLAIN ANALYZE
 select 
    w_state
   ,i_item_id

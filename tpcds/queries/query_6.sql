@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query6.tpl
+EXPLAIN ANALYZE
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c

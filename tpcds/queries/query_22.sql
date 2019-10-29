@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query22.tpl
+EXPLAIN ANALYZE
 select  i_product_name
              ,i_brand
              ,i_class

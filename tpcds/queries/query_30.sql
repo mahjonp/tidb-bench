@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query30.tpl
+EXPLAIN ANALYZE
 with customer_total_return as
  (select wr_returning_customer_sk as ctr_customer_sk
         ,ca_state as ctr_state,

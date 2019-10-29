@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query85.tpl
+EXPLAIN ANALYZE
 select  substr(r_reason_desc,1,20)
        ,avg(ws_quantity)
        ,avg(wr_refunded_cash)

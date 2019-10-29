@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query59.tpl
+EXPLAIN ANALYZE
 with wss as
  (select d_week_seq,
         ss_store_sk,

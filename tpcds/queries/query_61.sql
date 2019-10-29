@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query61.tpl
+EXPLAIN ANALYZE
 select  promotions,total,cast(promotions as decimal(15,4))/cast(total as decimal(15,4))*100
 from
   (select sum(ss_ext_sales_price) promotions

@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query42.tpl
+EXPLAIN ANALYZE
 select  dt.d_year
  	,item.i_category_id
  	,item.i_category

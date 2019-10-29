@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query96.tpl
+EXPLAIN ANALYZE
 select  count(*)
 from store_sales
     ,household_demographics

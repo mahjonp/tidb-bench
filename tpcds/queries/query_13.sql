@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query13.tpl
+EXPLAIN ANALYZE
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)

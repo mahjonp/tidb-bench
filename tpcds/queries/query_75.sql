@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query75.tpl
+EXPLAIN ANALYZE
 WITH all_sales AS (
  SELECT d_year
        ,i_brand_id

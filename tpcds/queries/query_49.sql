@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query49.tpl
+EXPLAIN ANALYZE
 select  channel, item, return_ratio, return_rank, currency_rank from
  (select
  'web' as channel

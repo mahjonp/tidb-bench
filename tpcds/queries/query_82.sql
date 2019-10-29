@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query82.tpl
+EXPLAIN ANALYZE
 select  i_item_id
        ,i_item_desc
        ,i_current_price

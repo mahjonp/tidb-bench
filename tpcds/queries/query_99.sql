@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query99.tpl
+EXPLAIN ANALYZE
 select 
    substr(w_warehouse_name,1,20)
   ,sm_type

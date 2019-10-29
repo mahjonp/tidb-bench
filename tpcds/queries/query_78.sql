@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query78.tpl
+EXPLAIN ANALYZE
 with ws as
   (select d_year AS ws_sold_year, ws_item_sk,
     ws_bill_customer_sk ws_customer_sk,

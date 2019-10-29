@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query72.tpl
+EXPLAIN ANALYZE
 select  i_item_desc
       ,w_warehouse_name
       ,d1.d_week_seq

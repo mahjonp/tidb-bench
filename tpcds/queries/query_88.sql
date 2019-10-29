@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query88.tpl
+EXPLAIN ANALYZE
 select  *
 from
  (select count(*) h8_30_to_9

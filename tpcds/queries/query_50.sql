@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query50.tpl
+EXPLAIN ANALYZE
 select 
    s_store_name
   ,s_company_id

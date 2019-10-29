@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query70.tpl
+EXPLAIN ANALYZE
 select 
     sum(ss_net_profit) as total_sum
    ,s_state

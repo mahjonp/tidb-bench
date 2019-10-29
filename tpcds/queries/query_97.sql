@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query97.tpl
+EXPLAIN ANALYZE
 with ssci as (
 select ss_customer_sk customer_sk
       ,ss_item_sk item_sk

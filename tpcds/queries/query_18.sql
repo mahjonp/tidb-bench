@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query18.tpl
+EXPLAIN ANALYZE
 select  i_item_id,
         ca_country,
         ca_state,

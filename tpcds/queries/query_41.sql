@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query41.tpl
+EXPLAIN ANALYZE
 select  distinct(i_product_name)
  from item i1
  where i_manufact_id between 742 and 742+40

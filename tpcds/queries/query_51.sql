@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query51.tpl
+EXPLAIN ANALYZE
 WITH web_v1 as (
 select
   ws_item_sk item_sk, d_date,

@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query57.tpl
+EXPLAIN ANALYZE
 with v1 as(
  select i_category, i_brand,
         cc_name,

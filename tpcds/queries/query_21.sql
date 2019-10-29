@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query21.tpl
+EXPLAIN ANALYZE
 select  *
  from(select w_warehouse_name
             ,i_item_id

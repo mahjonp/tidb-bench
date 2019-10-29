@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query77.tpl
+EXPLAIN ANALYZE
 with ss as
  (select s_store_sk,
          sum(ss_ext_sales_price) as sales,

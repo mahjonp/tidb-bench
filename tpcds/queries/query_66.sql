@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query66.tpl
+EXPLAIN ANALYZE
 select 
          w_warehouse_name
  	,w_warehouse_sq_ft

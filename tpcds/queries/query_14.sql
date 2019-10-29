@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query14.tpl
+EXPLAIN ANALYZE
 with  cross_items as
  (select i_item_sk ss_item_sk
  from item,

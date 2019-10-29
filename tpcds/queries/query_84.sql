@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query84.tpl
+EXPLAIN ANALYZE
 select  c_customer_id as customer_id
        , coalesce(c_last_name,'') || ', ' || coalesce(c_first_name,'') as customername
  from customer

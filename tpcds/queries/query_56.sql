@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query56.tpl
+EXPLAIN ANALYZE
 with ss as (
  select i_item_id,sum(ss_ext_sales_price) total_sales
  from

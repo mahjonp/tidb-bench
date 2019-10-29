@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query15.tpl
+EXPLAIN ANALYZE
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales

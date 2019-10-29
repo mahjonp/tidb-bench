@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query5.tpl
+EXPLAIN ANALYZE
 with ssr as
  (select s_store_id,
         sum(sales_price) as sales,

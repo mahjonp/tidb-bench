@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query83.tpl
+EXPLAIN ANALYZE
 with sr_items as
  (select i_item_id item_id,
         sum(sr_return_quantity) sr_item_qty

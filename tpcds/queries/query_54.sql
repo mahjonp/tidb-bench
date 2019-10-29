@@ -1,4 +1,5 @@
 -- start query 1 in stream 0 using template query54.tpl
+EXPLAIN ANALYZE
 with my_customers as (
  select distinct c_customer_sk
         , c_current_addr_sk
